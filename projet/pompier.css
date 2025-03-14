@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.titre1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;  /* Assure que la barre de titre est toujours au-dessus du contenu */
+}
+
+.titre2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding-top: 80px;  /* Ajoute de l'espace en haut pour que le contenu ne soit pas caché par la barre de titre */
+}
